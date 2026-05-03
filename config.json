@@ -1,0 +1,17 @@
+{
+  "loop": true,
+  "delay_minutes": 10,
+  "max_workers": 3,
+  "delay_per_cookie": 1,
+
+  "solver_retries": 3,
+  "solver_retry_delay": 5,
+
+  "place_id": 0,
+  "winter_api_key": "",
+
+  "discord_webhook": "",
+  "min_balance_warning": 1000,
+  "min_battery": 20,
+  "max_consecutive_fails": 3
+}

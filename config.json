@@ -2,16 +2,18 @@
   "loop": true,
   "delay_minutes": 10,
   "max_workers": 3,
+  "max_gateway_workers": 10,
+  "gateway_cache_minutes": 30,
+  "gateway_timeout": 5,
   "delay_per_cookie": 1,
-
   "solver_retries": 3,
   "solver_retry_delay": 5,
-
-  "place_id": 0,
-  "winter_api_key": "",
-
+  "place_id": 920587237,
+  "winter_api_key": "ca665d53ab39462c3e9eb8b163677d54d638b8ebd130fb24d75bd6332e357635",
   "discord_webhook": "",
-  "min_balance_warning": 1000,
-  "min_battery": 20,
-  "max_consecutive_fails": 3
+  "min_balance_warning": 0,
+  "min_battery": 15,
+  "max_consecutive_fails": 3,
+  "performance_mode": false,
+  "web_port": 8080
 }
